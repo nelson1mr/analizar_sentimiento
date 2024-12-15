@@ -44,6 +44,7 @@ El dataset utilizado para entrenar el modelo no está incluido directamente en e
 Una vez descargado, coloca el archivo `dataset_comentarios.csv` en la misma carpeta donde se encuentra el script principal del proyecto.
 
 ## Ejecución del Proyecto
+(si solo quieres ejecutar el modelo ya entrendao salta al paso 3, entrenar el modelo puede llevarte mas de 30 minutos como en mi caso)
 
 Para ejecutar el proyecto y utilizar el modelo entrenado:
 
