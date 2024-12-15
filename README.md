@@ -39,7 +39,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado Python 3.x. Puedes 
 ## Dataset
 El dataset utilizado para entrenar el modelo no está incluido directamente en el repositorio debido a su tamaño. Puedes descargarlo desde el siguiente enlace:
 
-[Descargar dataset_comentarios.csv](https://www.mediafire.com/file/8dpjxrxbvc7w68u/dataset_comentarios.csv/file)
+[Descargar dataset_comentarios.csv (70mb)](https://www.mediafire.com/file/8dpjxrxbvc7w68u/dataset_comentarios.csv/file)
 
 Una vez descargado, coloca el archivo `dataset_comentarios.csv` en la misma carpeta donde se encuentra el script principal del proyecto.
 
@@ -52,7 +52,7 @@ Para ejecutar el proyecto y utilizar el modelo entrenado:
 2. **Ejecutar el entrenamiento (si aún no se ha realizado)**:
     Si aún no has entrenado el modelo, puedes ejecutar el script `train_model.py` para entrenar el modelo utilizando el dataset descargado:
     ```bash
-    python train_model.py
+    python entrenar_modelo.py
     ```
 
     Esto entrenará el modelo y guardará el archivo `sentimento_model.h5` (modelo entrenado) y `tokenizer.pkl` (tokenizador) en el directorio actual.
@@ -60,22 +60,20 @@ Para ejecutar el proyecto y utilizar el modelo entrenado:
 3. **Realizar predicciones**:
     Una vez que el modelo esté entrenado, puedes ejecutar el script `predict_sentiment.py` para hacer predicciones sobre nuevos comentarios de texto. Aquí está el ejemplo básico de cómo ejecutarlo:
     ```bash
-    python predict_sentiment.py
+    python probar_modelo.py
     ```
 
     El script tomará los comentarios y devolverá las predicciones sobre si el sentimiento es positivo o negativo.
 
 ## Estructura del Proyecto
 
-- `train_model.py`: Script para entrenar el modelo.
-- `predict_sentiment.py`: Script para realizar predicciones con el modelo entrenado.
+- `entrenar_modelo.py`: Script para entrenar el modelo.
+- `probar_modelo.py`: Script para realizar predicciones con el modelo entrenado.
 - `sentimento_model.h5`: El modelo de red neuronal entrenado.
 - `tokenizer.pkl`: Tokenizador utilizado para convertir los comentarios en secuencias de texto.
 - `dataset_comentarios.csv`: Dataset utilizado para entrenar el modelo (descargable desde el enlace provisto).
 
-## Contribuciones
-Las contribuciones son bienvenidas. Si deseas colaborar, por favor crea un fork del repositorio y envía tus pull requests.
-
-## Licencia
-Este proyecto está bajo la licencia MIT.
+## Licencia y uso
+Este proyecto abierto para que puedas usarlo. Comparte abiertamente!
+@nelson1mr
 
