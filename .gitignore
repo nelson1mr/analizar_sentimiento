@@ -1,0 +1,20 @@
+# Dataset
+dataset_comentarios.csv
+
+# Entorno virtual
+venv/
+
+# Archivos Python compilados
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de base de datos
+*.db
+
+# Archivos de entorno
+.env
